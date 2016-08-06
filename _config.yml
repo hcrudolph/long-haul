@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Bits and Pieces
+description: Hans Christian Rudolph writing about Functional Programming and Cyber Security
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://hcrudolph.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +20,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   xing: HansChristian_Rudolph2
+   linkedin: hcrudolph
+   github: hcrudolph
+   twitter: hcrudolph
+   email: hanschristianrudolph@gmail.com
 
-google_analytics: "UA-58263416-1"
