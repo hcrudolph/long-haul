@@ -3,12 +3,13 @@ description: Hans Christian Rudolph writing about Functional Programming and Cyb
 
 url: https://hcrudolph.com
 baseurl: ""
+lang: "de-DE"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, i18n]
 paginate: 5
 
 navigation:
