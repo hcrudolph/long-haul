@@ -3,7 +3,8 @@ description: Hans Christian Rudolph writing about Functional Programming and Cyb
 
 url: https://hcrudolph.com
 baseurl: ""
-lang: "en-US"
+
+lang: "de-DE"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
