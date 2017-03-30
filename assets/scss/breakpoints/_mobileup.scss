@@ -16,6 +16,7 @@ body {
     font-size: 112.5%; // 18px base font size
     color: $black;
     overflow-x: hidden;
+    margin: 0;
 
     p , ul {
         margin: 0 0 2rem;
@@ -89,44 +90,44 @@ MENU STYLING
 }
 
 .js .nav-collapse {
-  clip: rect(0 0 0 0);
-  max-height: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1;
-  clear: both;
-  width: 100%;
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+    width: 100%;
 }
 
 .nav-collapse.opened {
-  max-height: 9999px;
+    max-height: 9999px;
 }
 
 .nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  float: right;
-  line-height: 2em;
-  margin-top: .5em;
-  background-color: $background-color;
-  border-radius: 4px;
-  padding: 0 .5em;
-  color: white;
-  text-decoration: none;
-  position: relative;
-  right: 2rem;
-  @include transition(all 0.2s ease-in-out);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    float: right;
+    line-height: 2em;
+    margin-top: .5em;
+    background-color: $background-color;
+    border-radius: 4px;
+    padding: 0 .5em;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    right: 2rem;
+    @include transition(all 0.2s ease-in-out);
 
-  &:hover {
-      color: white;
-      background-color: darken($background-color, 10%);
-  }
+    &:hover {
+        color: white;
+        background-color: darken($background-color, 10%);
+    }
 }
 
 
@@ -152,7 +153,7 @@ dd {
 .post ul ol,
 .post ol ul,
 .post ol ol {
-  margin: 0;
+    margin: 0;
 }
 
 
