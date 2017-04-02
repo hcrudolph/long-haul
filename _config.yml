@@ -5,8 +5,8 @@ url: https://hcrudolph.com
 baseurl: ""
 
 lang: "de-DE"
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate_path: "page:num/"
+permalink: :title/
 
 markdown: kramdown
 highlighter: rouge
