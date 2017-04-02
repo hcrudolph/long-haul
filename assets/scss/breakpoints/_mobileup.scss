@@ -55,6 +55,7 @@ a {
 
     &:hover {
         color: darken($link-color, 15%);
+        text-decoration: none;
     }
 }
 
@@ -177,7 +178,7 @@ HEADER STYLING
 
 .header {
     background-color: $background-color;
-    // background-image: url();
+    background-image: url('../img/header.jpg');
     background-size: cover;
     background-position: center center;
     color: white;
@@ -210,6 +211,10 @@ HEADER STYLING
 /***************
 POST STYLING
 ***************/
+
+.bandcamp {
+    width: 300px;
+}
 
 .post {
     text-align: justify;
@@ -479,7 +484,7 @@ POST LIST STYLING
             text-decoration: none;
 
             &:hover {
-                text-decoration: underline;
+                text-decoration: none;
             }
         }
 

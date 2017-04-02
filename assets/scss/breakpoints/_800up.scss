@@ -45,6 +45,7 @@ HOMEPAGE STYLING
     }
 
     .pageTitle {
+        text-align: center;
         margin: 2rem auto 1em;
     }
 }
@@ -96,6 +97,7 @@ HEADER STYLING
 
                     &:hover {
                         color: darken(white, 20%);
+                        text-decoration: none;
                     }
                 }
 
@@ -139,7 +141,7 @@ POST STYLING
 ***************/
 
 .post {
-    text-align: justify;
+
     h1, h2, h3, h4, h5, h6, p, ul, ol, dl, .pageTitle {
         @include span(9 of 12); 
         float: none;
@@ -147,6 +149,7 @@ POST STYLING
     }
 
     h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+        text-align: center;
         margin: 1rem auto; 
     }
 
