@@ -187,7 +187,7 @@ HEADER STYLING
 
     .container {
         padding: 0;
-        @include container(100%);
+        max-width: 100%;
     }
 
     h1 {
@@ -356,7 +356,7 @@ POST NAV STYLING
             text-shadow: 1px 1px 3px rgba(0,0,0,.8);
             padding: 0 .5rem;
             position: relative;
-            @include transition(all 0.2s ease-in-out);
+            transition: all 0.2s ease-in-out;
         }
 
         &:hover {
@@ -387,11 +387,12 @@ FOOTER STYLING
 .footer {
     text-align: center;
     padding: 2rem 0;
+    clear: both;
 
     .container {
         border-top: 4px solid darken(white, 15%);
         padding-top: .5em;
-        @include container(90%);
+        max-width: 90%;
     }
 
     .copy, .footer-links {
@@ -413,7 +414,7 @@ FOOTER STYLING
                     display: inline-block;
                     width: 30px;
                     height: 30px;
-                    @include transition(all 0.2s ease-in-out);
+                    transition: all 0.2s ease-in-out;
 
                     svg {
                         display: block;
