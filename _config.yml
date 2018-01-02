@@ -10,7 +10,7 @@ permalink: :title/
 
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate, i18n, jekyll-twitter-plugin]
+plugins: [jekyll-paginate, i18n, jekyll-twitter-plugin]
 paginate: 5
 
 navigation:
